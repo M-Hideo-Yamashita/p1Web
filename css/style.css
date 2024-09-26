@@ -1,0 +1,185 @@
+body
+{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.container 
+{
+    padding-top:200px;
+    max-width: 65%;
+    display: grid;
+    margin: auto;
+}
+@media (min-width: 600px) {
+    .container { grid-template-columns: repeat(2, 1fr); }
+  }
+main
+{
+    max-width: 100%;
+    min-width: 400px;
+
+}
+
+.card_prod 
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    background-color: white;
+}
+
+  
+.card_prod:hover 
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+.img-card 
+{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height:auto
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover 
+{
+    background-color: #cac2c2;
+    transition-duration: 0.5s;
+}
+.pesquisa
+{
+    text-decoration: none;
+    margin-top: 12px; 
+    margin-right: 16px;
+    float:right; 
+    display: block;
+    border-radius: 5px;
+}
+
+p
+{
+    text-align: center;
+    font-size: 40px;  
+}
+nav
+{
+    border-bottom: gray 1px solid;
+    
+}
+
+table,th,td
+{
+    border: 1px solid black;
+    border-collapse:collapse;
+    
+}
+table
+{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+td
+{
+    text-align: center;
+}
+.comentario
+{
+    border-top:1px solid black ;
+}
+
+button.butao
+{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    
+}
+
+
+p
+{
+    font-size: 20px;
+}
+
+.comentarios
+{
+    padding-top:5PX ;
+    width: 65%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+ 
+.h2_comentario
+{
+    text-align: center;
+    width: 100%;
+}
+.p_comentarios
+{
+}
+.comentario
+{
+    border: 1px solid black ;
+    border-radius: 10px;
+}
+textarea
+{
+    width: 100%;
+    border-radius: 10px;
+    height: 100px;
+}
+.comentar
+{
+    width: 99.5%;
+}
+.button
+{
+    transition-duration: 0.4s;
+    background-color:white; /* Green */
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float:right;
+    font-size: 16px;
+}
+
+.button:hover {
+background-color: #cac2c2; /* Green */
+}

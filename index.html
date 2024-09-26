@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+            <form action="">
+                <label for=""><img src="" alt=""></label>
+                <input type="text" class="pesquisa" placeholder="Pesquisa...">
+            </form>
+          </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="card_prod">
+                <img src="https://static.netshoes.com.br/produtos/tenis-ous-imigrante-preto-e-furta-cor/06/G95-0400-006/G95-0400-006_zoom1.jpg?ts=1626186139&ims=1088x" alt="" class="img-card" >
+                <h2>Tênis Ous Imigrante Masculino PRT Creme Reflect Essencial.</h2>
+                <p>Preco: R$500.89</p>
+                <form action="">
+                    <button type="submit" class="butao">COMPRAR</button>
+                </form>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th><h2>Medida em centimetros</h2></th>
+                        <th><h2>Tamanho-Brasil</h2></th>
+                        <th><h2>Tamanho-USA</h2></th>
+                    </tr>
+        
+                    <tr>
+                        <td>24,5 cm</td>
+                        <td>35</td>
+                        <td>4.5</td>
+                    </tr>
+                    <tr>
+                        <td>25,0 cm</td>
+                        <td>36</td>
+                        <td>5.5</td>
+                    </tr>
+                    <tr>
+                        <td>26,0 cm</td>
+                        <td>37</td>
+                        <td>6</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>27,0 cm</td>
+                        <td>38</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>27,5 cm</td>
+                        <td>39</td>
+                        <td>7.5</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>27,5 cm</td>
+                        <td>39</td>
+                        <td>7.5</td>
+                        
+                    </tr>
+                </table>
+            </div>
+            
+            
+        </div>
+        <div class="comentarios">
+            <div class="comentario">
+                <h2 class="h2_comentario">COMENTARIOS</h2>
+                <P class="p_comentarios">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum perferendis porro rem alias exercitationem, nam eligendi, ut nobis hic fugiat impedit, nulla repellendus distinctio odit sint culpa eius? Ut, pariatur.
+                Commodi aut tempore quas minima! Pariatur, et? Magnam iure, est accusamus placeat a, explicabo illo ut hic iusto fugit aliquid sit odit doloremque magni laborum delectus nostrum sint distinctio molestias.
+                Perferendis autem quaerat consequatur totam? Id excepturi doloribus odio placeat quo! Aperiam ipsum nemo omnis consequuntur. Laborum, modi. Libero excepturi vel perferendis iusto iste recusandae consectetur accusamus incidunt est beatae.</P>
+            </div>
+            <div class="comentar">
+                <h2 class="h2_comentario">ENVIAR COMENTARIO</h2>
+                <form action="">
+                    <textarea name="" id="coment" ></textarea>
+                    <button type="submit" class="button" onclick="validaMemo()">Enviar</button>
+                </form>
+            </div>
+        </div>
+        
+        
+    </main>
+    
+</body>
+<script>
+    function validaMemo() {
+        var coment = document.getElementById("coment").value;
+        console.log(coment)
+        if (coment == "")
+        {   
+            
+            alert("Comentario vazio!");
+        }
+        else
+        {
+            alert("Comentario Enviado com sucesso!!")
+        }
+        
+    }
+</script>
+</html>
